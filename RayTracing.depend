@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1587213214 source:e:\computergraphic\raytracing\main.cpp
+	<iostream>
+	<fstream>
+	"headers/camera.h"
+	"headers/hitable_list.h"
+	"headers/material.h"
+	"headers/sphere.h"
+
+1587200268 e:\computergraphic\raytracing\headers\vec3.h
+	<cmath>
+	<cstdlib>
+	<iostream>
+
+1587211407 e:\computergraphic\raytracing\headers\camera.h
+	"vec3.h"
+	"ray.h"
+	"utils.h"
+
+1587198132 e:\computergraphic\raytracing\headers\ray.h
+	"vec3.h"
+
+1587213839 e:\computergraphic\raytracing\headers\utils.h
+	<random>
+	<ctime>
+
+1587135255 e:\computergraphic\raytracing\headers\hitable_list.h
+	"hitable.h"
+
+1587193544 e:\computergraphic\raytracing\headers\hitable.h
+	"ray.h"
+
+1587211431 e:\computergraphic\raytracing\headers\material.h
+	"ray.h"
+	"hitable.h"
+	"utils.h"
+
+1587195996 e:\computergraphic\raytracing\headers\sphere.h
+	"hitable.h"
+
