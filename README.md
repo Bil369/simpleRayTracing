@@ -87,4 +87,4 @@ bool scatter(const ray& r_in, const hit_record& rec, vec3& attenuation, ray& sca
 ```
 该方法接受一个射入光线 r_in 和交点记录 rec ，返回反射光线 RGB 分量上的衰减程度向量 attenuation （该向量即材料表面的颜色），以及反射光线 scattered. 可以参考 material.h 中的实现。
 ## License
-GPL &copy; [Bil369](https://github.com/Bil369)
+[GPL](https://github.com/Bil369/simpleRayTracing/blob/master/LICENSE) &copy; [Bil369](https://github.com/Bil369)
